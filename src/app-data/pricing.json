@@ -1,0 +1,20 @@
+[
+    {
+        "plan": "BASIC",
+        "price": "$19",
+        "storage": "10 GB",
+        "bandwidth": "500GB"
+    },
+    {
+        "plan": "PREMIUM",
+        "price": "$29",
+        "storage": "10 GB",
+        "bandwidth": "500GB"
+    },
+    {
+        "plan": "DEVELOPER",
+        "price": "$39",
+        "storage": "10 GB",
+        "bandwidth": "500GB"
+    }
+]
