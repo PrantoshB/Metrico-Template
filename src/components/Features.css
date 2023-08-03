@@ -1,0 +1,25 @@
+.features-box {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .features-box .feature-icon {
+    font-size: 40px;
+    color: #3b4a69;
+  }
+  
+  .features-box h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #3b4a69;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  
+  .features-box p {
+    margin-top: 15px;
+    color: #767d8e;
+    font-size: 14px;
+  }
+  

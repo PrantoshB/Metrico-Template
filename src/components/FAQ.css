@@ -1,0 +1,19 @@
+.question-box {
+    margin-bottom: 30px;
+  }
+  
+  .question-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #43cea2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  
+  .question-box p {
+    margin-top: 5px;
+    color: #767d8e;
+    font-size: 14px;
+  }
+  

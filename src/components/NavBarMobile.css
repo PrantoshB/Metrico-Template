@@ -1,0 +1,55 @@
+/* src\components\NavBarMobile.css */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    max-width: 148px;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: #3b4a69;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 10%;
+    margin-left: 39%;
+    list-style: none;
+  }
+  
+  .menu-items li {
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .menu-items li:hover {
+    color: #37cb9c;
+  }
+  
+  .open {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

@@ -1,0 +1,44 @@
+/* src\components\Clients.css */
+.section.bg-white {
+    background-color: #fff;
+    padding: 70px 0;
+  }
+  
+  .title {
+    color: #3b4a69;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  
+  .slogan {
+    color: #767d8e;
+    line-height: 24px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  
+  .list-inline {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .list-inline-item:last-child {
+    margin-right: 0;
+  }
+  
+  .list-inline-item img {
+    max-width: 100%;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .list-inline-item img:hover {
+    opacity: 1;
+  }
+  
