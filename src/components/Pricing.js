@@ -27,8 +27,8 @@ const Pricing = (properties) => {
           24x7 Support
         </li>
       </ul>
-      <div class="text-center">
-        <a href="#" class="pricing-btn">
+      <div className="text-center">
+        <a href="#" className="pricing-btn prim-btn">
           Signup Now
         </a>
       </div>

@@ -1,0 +1,19 @@
+.facts-box {
+    margin-top: -52px;
+    background: #fff;
+    box-shadow: 0 -3px 31px 0 rgba(0,0,0,.05),0 6px 20px 0 rgba(0, 0, 0, 0.151);
+    border-radius: 15px;
+    padding: 2% 0 0;
+}
+
+.facts-box h2 {
+    color: #767d8e;
+}
+
+.facts-box p {
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #98a6ad !important;
+}

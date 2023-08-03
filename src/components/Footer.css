@@ -1,0 +1,54 @@
+.subscribe-form h3 {
+    color: #fff;
+    margin: 0px 0px 30px 0px;
+}
+
+.bg-dark-color {
+    background-color: #28282e !important;
+}
+
+.subscribe-form form {
+    position: relative;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.subscribe-form{
+    padding: 7%;
+}
+
+.subscribe-form form input {
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    outline: none !important;
+    padding-right: 150px;
+    padding-left: 30px;
+    background-color: rgba(255,255,255,.19);
+    border-radius: 30px;
+}
+
+.subscribe-form form button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    outline: none !important;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    background: #43cea2;
+    padding: 11px 30px;
+}
+
+.footer {
+    padding: 20px 0px;
+    border-top: 1px solid #3b3b40;
+}
+
+.copyright {
+    color: #a0a0a0;
+    margin: 0px;
+}
