@@ -19,8 +19,8 @@ const NavBar = () => {
               <img src={Logo} alt="metrico" className="logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
-            <Navbar.Collapse id="navbar-nav">
-              <Nav className="me-auto">
+            <Navbar.Collapse id="navbar-nav" className="justify-content-end"> {/* Add justify-content-end class to align menu to right */}
+              <Nav>
                 <Nav.Link href="#">Home</Nav.Link>
                 <Nav.Link href="#">Features</Nav.Link>
                 <Nav.Link href="#">Pricing</Nav.Link>

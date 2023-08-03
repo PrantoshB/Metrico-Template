@@ -1,20 +1,35 @@
-.logo-white {
+/* src/components/NavBar.css */
+.logo {
     max-width: 148px;
 }
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end; /* Align menu to the right */
 }
 
 .menu-items{
     display: flex;
     gap: 10%;
-    margin-left: 39%;
+    /* margin-left: 39%; */ /* Remove margin-left to center the menu items */
 }
 
 .menu-items li{
     font-size: 14px;
     color: #333333;
+    /* margin-right: 10px; */ /* Optionally add margin-right for spacing between menu items */
+}
+
+/* Optional style for desktop navigation links */
+.menu-items li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+}
+
+/* Optional style for active link in desktop navigation */
+.menu-items li a.active {
+    color: #43cea2;
+    font-weight: bold;
 }
