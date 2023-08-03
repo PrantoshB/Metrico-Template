@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Pricing from "../components/Pricing";
 import pricingData from "../app-data/pricing.json";
 import "./AllPricing.css";
@@ -10,9 +9,9 @@ import Converse from "../assets/images/converse.png";
 const AllPricing = () => {
   return (
     <div className="price-section">
-      <div class="text-center">
-        <h2 class="title">Simple Pricing</h2>
-        <p class="title-alt">
+      <div className="text-center">
+        <h2 className="title">Simple Pricing</h2>
+        <p className="title-alt">
           Looks beautiful & ultra-sharp on Retina Screen Displays. Retina Icons,
           Fonts & all <br />
           others graphics are optimized.
@@ -32,10 +31,10 @@ const AllPricing = () => {
           ))}
       </div>
 
-      <div class="text-center">
+      <div className="text-center">
         <div>
-          <h2 class="title">Trusted by Thousands</h2>
-          <p class="title-alt">
+          <h2 className="title">Trusted by Thousands</h2>
+          <p className="title-alt">
             Lorem ipsum dolor sit amet, consectetur adipis.
           </p>
         </div>

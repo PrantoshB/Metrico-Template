@@ -1,0 +1,32 @@
+.features-box .feature-icon {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #767d8e;
+    margin: 0px auto 7%;
+    border-radius: 50%;
+    font-size: 42px;
+    line-height: 84px;
+}
+
+.features-box h3 {
+    font-size: 18px;
+}
+
+.features-box p {
+    line-height: 26px;
+    width: 85%;
+    margin: 10px auto;
+}
+
+#features{
+    padding: 8% 0;
+}
+
+.ipad-image{
+    display: flex;
+    justify-content: center;
+}
+
+.ipad-image img{
+    width: 50%;
+}
