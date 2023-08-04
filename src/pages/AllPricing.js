@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/function-component-definition
 import React, { useEffect } from "react";
 import Pricing from "../components/Pricing";
 import pricingData from "../app-data/pricing.json";

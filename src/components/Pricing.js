@@ -1,5 +1,6 @@
 import React from "react";
 import "./Pricing.css";
+import { Button } from 'react-bootstrap';
 
 const Pricing = (properties) => {
   return (
@@ -28,9 +29,7 @@ const Pricing = (properties) => {
         </li>
       </ul>
       <div class="text-center">
-        <a href="#" class="pricing-btn">
-          Signup Now
-        </a>
+        <Button variant="primary">Click me</Button>
       </div>
     </div>
   );

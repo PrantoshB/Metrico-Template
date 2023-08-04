@@ -1,4 +1,3 @@
-// src/components/NavBar.js
 import React from 'react';
 import './NavBar.css';
 import Logo from '../assets/images/logo.png';
@@ -21,11 +20,11 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav" className="justify-content-end"> {/* Add justify-content-end class to align menu to right */}
               <Nav>
-                <Nav.Link href="#">Home</Nav.Link>
-                <Nav.Link href="#">Features</Nav.Link>
-                <Nav.Link href="#">Pricing</Nav.Link>
-                <Nav.Link href="#">Clients</Nav.Link>
-                <Nav.Link href="#">FAQ</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/features">Features</Nav.Link>
+                <Nav.Link href="/pricing">Pricing</Nav.Link>
+                <Nav.Link href="/clients">Clients</Nav.Link>
+                <Nav.Link href="/faq">FAQ</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Button } from 'react-bootstrap';
 
 const Home = () => {
   return (
@@ -10,9 +11,9 @@ const Home = () => {
             <div className="home-wrapper text-center">
               <p className="text-muted">Creative Landing Page Template</p>
               <h1>Here is the best way to present your apps</h1>
-              <a href="#" className="btn btn-primary active">
+              <Button variant="primary" active>
                 Get Started
-              </a>
+              </Button>
             </div>
           </div>
         </div>

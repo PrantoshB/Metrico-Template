@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Home /> {/* Include the Home component */}
-      <AllPricing />
       <Features />
+      <AllPricing />
       <Clients />
       <FAQ />
     </div>
