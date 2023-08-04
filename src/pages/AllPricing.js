@@ -33,7 +33,7 @@ const AllPricing = () => {
           ))}
       </div>
 
-      <div class="text-center">
+      {/* <div class="text-center">
         <div>
           <h2 class="title">Trusted by Thousands</h2>
           <p class="title-alt">
@@ -55,7 +55,7 @@ const AllPricing = () => {
             <img src={Converse} />
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

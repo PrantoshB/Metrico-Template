@@ -15,7 +15,7 @@ const NavBar = () => {
         <Navbar expand="lg" className="desktop-nav">
           <Container>
             <Navbar.Brand href="/">
-              <img src={Logo} alt="metrico" className="logo" />
+              <img src={Logo} alt="metrico" className="logo logo-white" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav" className="justify-content-end"> {/* Add justify-content-end class to align menu to right */}
