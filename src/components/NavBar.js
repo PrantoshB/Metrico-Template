@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 import Logo from "../assets/images/logo.png";
 import LogoWhite from "../assets/images/logo_white.png";
+import NavBarMobile from './NavBarMobile';
 
 const NavBar = () => {
   const [navbarStyle, setNavbarStyle] = useState({});

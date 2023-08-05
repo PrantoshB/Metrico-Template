@@ -1,0 +1,36 @@
+/* src/components/NavBarMobile.css */
+.logo-white {
+  max-width: 148px;
+}
+
+.mobile-nav {
+  background-color: #f8f8f8;
+}
+
+.mobile-nav .navbar-brand img {
+  max-width: 148px;
+}
+
+/* Additional style for the mobile navigation menu items */
+/* NavBarMobile.css */
+.mobile-nav .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Additional style for the mobile navigation links */
+.mobile-nav .navbar-nav a {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Additional style for active link in mobile navigation */
+.mobile-nav .navbar-nav a.active {
+  color: #43cea2;
+  font-weight: bold;
+}

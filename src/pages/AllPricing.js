@@ -8,7 +8,7 @@ import Converse from "../assets/images/converse.png";
 
 const AllPricing = () => {
   return (
-    <div className="price-section">
+    <div className="price-section" id="pricing">
       <div className="text-center">
         <h2 className="title">Simple Pricing</h2>
         <p className="title-alt">
@@ -31,7 +31,7 @@ const AllPricing = () => {
           ))}
       </div>
 
-      <div className="text-center">
+      <div className="text-center" id="clients">
         <div>
           <h2 className="title">Trusted by Thousands</h2>
           <p className="title-alt">
